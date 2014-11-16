@@ -1,7 +1,7 @@
-Airz23-Bookshelf
+Airz23's Stories, on a Bookshelf
 ================
 
-A different way to view the great stories of Airz23 (reddit), a personal project in which I stopped working on months ago
+_A different way to view the great stories of Airz23 (reddit), a personal project in which I stopped working on months ago_
 
 I created this as a fun project, just as a test to see if I could take what I saw in this demo
 (http://tympanus.net/codrops/2013/01/08/3d-book-showcase/) and turn it into something more. I really liked the end product,
