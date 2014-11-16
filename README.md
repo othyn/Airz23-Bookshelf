@@ -1,4 +1,4 @@
-Airz23's Stories, on a Bookshelf
+Airz23's Stories, on an Interactive Bookshelf
 ================
 
 _A different way to view the great stories of Airz23 (reddit), a personal project in which I stopped working on months ago_
