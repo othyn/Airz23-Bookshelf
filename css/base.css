@@ -1,0 +1,166 @@
+/* ================================================== */
+/* = Document Styling                               = */
+/* ================================================== */
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	background-image: url("../img/brushed_@2X.png");
+	/* Set the fixed height of the footer here */
+	margin-bottom: 40px;
+}
+
+
+
+
+
+/* ================================================== */
+/* = Custom Styling                                 = */
+/* ================================================== */
+
+.temp {
+	background-color: #333333;
+	text-align: center;
+}
+.temp_header {
+	margin:15px 0px;
+	color:#FFF;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 40px;
+	background-color: #333333;
+}
+.hcenter {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#secret_img {
+	margin:8px 0px 7px 0px;
+}
+
+
+
+
+
+/* ================================================== */
+/* = Bootstrap Custom Styling & Overrides           = */
+/* ================================================== */
+
+.panel-othyn{
+	border-color:#222222;
+}
+.panel-othyn > .panel-heading{
+	color:#FFF;
+	background-color:#333333;
+	border-color:#222222;
+}
+.panel-othyn > .panel-heading + .panel-collapse .panel-body{
+	border-top-color:#222222;
+}
+.panel-othyn > .panel-footer + .panel-collapse .panel-body{
+	border-bottom-color:#222222;
+}
+/* Custom panel style - panel-othyn */
+
+
+
+.btn-othyn {
+    color: #ffffff;
+    background-color: #333333;
+    border-color: #222222;
+}
+.btn-othyn:hover, .btn-othyn:focus, .btn-othyn:active, .btn-othyn.active, .open .dropdown-toggle.btn-othyn {
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #111111;
+}
+.btn-othyn:active, .btn-othyn.active, .open .dropdown-toggle.btn-othyn {
+    background-image: none;
+}
+.btn-othyn.disabled, .btn-othyn[disabled], fieldset[disabled] .btn-othyn, .btn-othyn.disabled:hover, .btn-othyn[disabled]:hover, fieldset[disabled] .btn-othyn:hover, .btn-othyn.disabled:focus, .btn-othyn[disabled]:focus, fieldset[disabled] .btn-othyn:focus, .btn-othyn.disabled:active, .btn-othyn[disabled]:active, fieldset[disabled] .btn-othyn:active, .btn-othyn.disabled.active, .btn-othyn[disabled].active, fieldset[disabled] .btn-othyn.active {
+    background-color: #333333;
+    border-color: #222222;
+}
+.btn-othyn .badge {
+    color: #333333;
+    background-color: #ffffff;
+}
+.btn-group .dropdown-toggle.btn-othyn~.dropdown-menu {
+    background-color: #333333;
+    border-color: #222222;
+}
+.btn-group .dropdown-toggle.btn-othyn~.dropdown-menu>li>a {
+    color: #ffffff;
+}
+.btn-group .dropdown-toggle.btn-othyn~.dropdown-menu>li>a:hover {
+    background-color: #333333;
+}
+/* Custom button style - btn-othyn */
+
+
+
+.table-othyn>thead>tr>th, .table-othyn>tbody>tr>th, .table-othyn>tfoot>tr>th, .table-othyn>thead>tr>td, .table-othyn>tbody>tr>td, .table-othyn>tfoot>tr>td {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.table-othyn>thead>tr, .table-othyn>tbody>tr, .table-othyn>tfoot>tr {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+/* Custom table style - table-othyn - adds border to table row bottom, left and right and extends the table style, keeps the floating data look, but outlines the entire table to tidiness */
+
+
+
+.table-othyn-clean {
+	margin-bottom:0px; /* remove that annoying 20px push on the bottom of Bootstrap tables */
+}
+.table-othyn-clean>thead>tr>th, .table-othyn-clean>tbody>tr>th, .table-othyn-clean>tfoot>tr>th, .table-othyn-clean>thead>tr>td, .table-othyn-clean>tbody>tr>td, .table-othyn-clean>tfoot>tr>td {
+    border: 0px;
+}
+.table-othyn-clean>thead>tr, .table-othyn-clean>tbody>tr, .table-othyn-clean>tfoot>tr {
+    border: 0px;
+}
+/* A custom clean table design, mainly for if i'd like things to be dynamically scaled, but retain a nice distance between each element. Tables! :D */
+
+
+.panel-othyn-title {
+	margin-top:0;
+	margin-bottom:5px;
+	font-size:24px;
+	color:inherit;
+}
+.panel-othyn-title>a {
+	color:inherit;
+}
+.panel-othyn-title-sub-heading {
+	margin-top:0;
+	margin-bottom:0;
+	font-size:11px;
+	color:#AAA;
+}
+/* custom panel headers */
+
+
+
+blockquote {
+    font-size: 14px;
+    border-left-width: 1px;
+    color: #6f6f6f;
+}
+blockquote.pull-right {
+    border-right-width: 1px;
+}
+blockquote small {
+    font-size: 12px;
+    font-weight: 300;
+}
+/* For the block quotes on the Airz part of the site */
